@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <!-- Base application theme. -->
+  <style name="Theme.InspectionRecord.Light" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/green_brand</item>
+    <item name="colorPrimaryVariant">@color/dark_green_brand_custom</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/light_blue_brand</item>
+    <item name="colorSecondaryVariant">@color/blue_brand</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+
+  </style>
+
+  <style name="Theme.InspectionRecord.Light.Form1" parent="Theme.MaterialComponents.Light.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/blue_brand</item>
+    <item name="colorPrimaryVariant">@color/dark_blue_brand_custom</item>
+    <item name="colorOnPrimary">@color/white</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/light_green_brand</item>
+    <item name="colorSecondaryVariant">@color/green_brand</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+
+  </style>
+
+  <!-- Splash Screen -->
+  <style name="SplashTheme" parent="Theme.InspectionRecord.Light">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+  </style>
+
+</resources>
